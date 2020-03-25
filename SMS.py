@@ -10,9 +10,9 @@ If this Transaction is not initiated by you,Kindly conact our customer care  Cen
 Yours faithfully,\n\
 Karnataka Bank,\n\
 CCC, Bangalore."
-	s.login("vbr3906@gmail.com", "vinay@95130")
+	s.login("your_mail", "your password")
 	try:
-		s.sendmail("vbr3906@gmail.com", input("Enter Your E-mail: "), message) 
+		s.sendmail("sender_mail", input("Enter Your E-mail: "), message) #input() is for reciver mail
 		return 1
 	except:
 		print("E-mail doesn't exixt please Enter proper E-mail: ")
